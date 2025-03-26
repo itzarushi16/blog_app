@@ -1,0 +1,171 @@
+/* General styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background: #2c3e50; /* Navy blue */
+    color: #ecf0f1; /* Light gray */
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .btn {
+    display: inline-block;
+    background: #e74c3c; /* Red */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+header .btn:hover {
+    background: #c0392b; /* Darker red */
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Articles (Posts) */
+article {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+article h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+article p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    line-height: 1.8;
+}
+
+article form {
+    margin-top: 1rem;
+}
+
+article form .btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+article form .btn.delete {
+    background: #e74c3c; /* Red */
+    color: #fff;
+}
+
+article form .btn.delete:hover {
+    background: #c0392b; /* Darker red */
+}
+
+article form .btn {
+    background: #3498db; /* Blue */
+    color: #fff;
+}
+
+article form .btn:hover {
+    background: #2980b9; /* Darker blue */
+}
+
+/* Forms */
+form {
+    margin-top: 1rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background: #f4f4f4;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #3498db; /* Blue */
+    background: #ffffff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+form button {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: #3498db; /* Blue */
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+    background: #2980b9; /* Darker blue */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #ecf0f1; /* Light gray */
+    color: #7f8c8d; /* Gray */
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #3498db;
+}
